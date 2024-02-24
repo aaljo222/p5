@@ -1,4 +1,5 @@
 {
+  "homepage": "https://aaljo222.github.io/p5/",
   "name": "react-resume",
   "version": "1.2.4",
   "private": true,
@@ -6,13 +7,13 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.1",
+    "gh-pages": "^6.1.1",
     "html2canvas": "1.4.1",
     "jspdf": "2.5.1",
     "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "react-particles-js": "^3.4.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "tsparticles": "^1.31.1",
@@ -23,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
